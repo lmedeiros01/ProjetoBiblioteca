@@ -1,0 +1,26 @@
+@model Usuario
+
+<h1 class="row justify-content-md-center">Editar usuário</h1>
+<br>
+<div class="row justify-content-md-center">
+<form asp-action="RegistrarUsuarios" method="post" class="col-md-3">
+    <div class="form-group">
+    <input type="text" asp-for="Nome" id="userNome" placeholder="Nome">
+    </div>
+    <div class="form-group">
+    <input type="text" asp-for="Login" id="userLogin" placeholder="Login">
+    </div>
+    <div class="form-group">
+    <input type="text" asp-for="Senha" id="userSenha" placeholder="Senha">
+    </div>
+    <div class="form-group">
+    <select asp-for="Tipo" id="userTipo">
+        <option value="@Usuario.ADMIN">Administrador</option>
+        <option value="@Usuario.PADRAO">Padrão</option>
+    </select>
+    </div>
+    <div class="form-group">
+    <input type="submit" value="Editar" class="btn btn-primary">
+    </div>
+</form>
+</div>

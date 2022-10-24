@@ -9,8 +9,8 @@ namespace Biblioteca.Models
         {                   
             optionsBuilder.UseMySql("Server=localhost;DataBase=Biblioteca;Uid=root;");
         }
-
         public DbSet<Livro> Livros {get; set;}
         public DbSet<Emprestimo> Emprestimos {get; set;}
+        public DbSet<Usuario> Usuarios {get; set;}
     }
 }

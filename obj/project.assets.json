@@ -850,11 +850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CURSO TI\\MÓDULO 2\\UC 07\\atividade 1\\Biblioteca.csproj",
+      "projectUniqueName": "D:\\CURSO TI\\MÓDULO 2\\UC 07\\atividade 2\\Projeto Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "D:\\CURSO TI\\MÓDULO 2\\UC 07\\atividade 1\\Biblioteca.csproj",
+      "projectPath": "D:\\CURSO TI\\MÓDULO 2\\UC 07\\atividade 2\\Projeto Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\lfern\\.nuget\\packages\\",
-      "outputPath": "D:\\CURSO TI\\MÓDULO 2\\UC 07\\atividade 1\\obj\\",
+      "outputPath": "D:\\CURSO TI\\MÓDULO 2\\UC 07\\atividade 2\\Projeto Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lfern\\AppData\\Roaming\\NuGet\\NuGet.Config"
